@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventura Interativa</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventura Espacial: Exploração do Planeta Alienígena</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game">
-        <h1>Aventura no Castelo Abandonado</h1>
-        <p id="story"></p>
-        <div id="choices">
-            <button onclick="choose(1)">Escolha 1</button>
-            <button onclick="choose(2)">Escolha 2</button>
-        </div>
+  <div class="container">
+    <h1>Exploração do Planeta Alienígena</h1>
+    <div id="story">
+      <p>Você está em uma nave espacial que acaba de pousar em um planeta desconhecido. O que você faz agora?</p>
     </div>
-    <script src="script.js"></script>
+    <div id="choices">
+      <button onclick="choose(1)">Explorar a floresta alienígena</button>
+      <button onclick="choose(2)">Inspecionar os equipamentos da nave</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
